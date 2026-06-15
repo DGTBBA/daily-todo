@@ -1,0 +1,2 @@
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "powershell.exe -WindowStyle Hidden -Command ""Start-Process cmd.exe -ArgumentList '/c cd /d D:\桌面应用 && npm run electron:dev' -WindowStyle Hidden""", 0, False
